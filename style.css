@@ -16,18 +16,22 @@ body {
 	font-family: sans-serif;
 }
 
-/* layout */
+/* header */
 
-#logo {
+.header {
 	text-align: center;
-	font-size: 50px;
-	font-family: 'Alatsi', sans-serif;
 	border-bottom: 1px solid #383838;
 	margin-bottom: 30px;
+}
+
+#logo {
+	font-size: 50px;
+	font-family: 'Alatsi', sans-serif;
 	display: flex;
 	justify-content: center;
 	align-content: center;
 	line-height: 100px;
+	padding-top: 20px;
 }
 
 #logoimg {
